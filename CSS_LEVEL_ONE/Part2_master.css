@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+}
+
+div{
+    background-color: blue;
+    border-color: orangered;
+    border-width: 10 px;
+    border-style: double;
+}
+
+p{
+    color: yellow;
+}
+
+span{
+    background-color: red;
+    color: black;
+}

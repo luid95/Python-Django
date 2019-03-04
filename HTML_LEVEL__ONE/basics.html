@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>Please Note: First Name, Last Name, Password and Email are requiered</h1>
-    <form action="" method="post">
+    <form action="thankyou.html" method="get">
       <label>First Name:</label>
       <input type="text" name="name" placeholder="First Name" required>
       <label>Last Name:</label>
@@ -18,15 +18,15 @@
       <input type="password" name="password" required>
       <br>
       <h2>Are you over the age of 18?</h2>
-      <label for="ageusa"> Yes: </label>
-      <input id="ageusa" type="radio" name="age" value="">
-      <label for="ageusa"> No: </label>
-      <input id="ageusa" type="radio" name="age" value="">
+      <label for="y"> Yes: </label>
+      <input id="y" type="radio" name="over" value="yes">
+      <label for="n"> No: </label>
+      <input id="n" type="radio" name="over" value="no">
 
       <h2>Do you have a Credit Card o Paypal?</h2>
-      <select name="buy">
-        <option value="credit">Credit Card</option>
-        <option value="pay">Paypal</option>
+      <select name="payment">
+        <option value="cc">Credit Card</option>
+        <option value="pp">Paypal</option>
       </select>
       <br>
       <input type="submit" name="" value="submit">
