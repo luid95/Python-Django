@@ -10,11 +10,12 @@ window.addEventListener("load", function(event) {
     hello();
     
     //with params
-    function helloyou(name) {
+    function helloyou(name="David") {
         console.log("Hello "+name);
     }
 
     helloyou("luis");
+    helloyou();
 
     //operations
     function add(num1, num2) {
