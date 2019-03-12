@@ -13,7 +13,7 @@ window.addEventListener("load", function(event) {
         
     }
 
-    sleepIn(false, true);
+    sleedrpIn(false, true);
 
     //monkeyTrouble(true, true) = true
     //monkeyTrouble(false, false) = true
