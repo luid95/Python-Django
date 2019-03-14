@@ -23,6 +23,18 @@ print(my_string[::2])
 x = my_string.upper()
 print(x)
 
-#Basic Methods
+x = my_string.lower()
+print(x)
 
-#Print Formatting
+y = my_string.capitalize()
+print(y)
+
+cadena = "Hello World"
+a = cadena.split('e')
+print(a)
+
+x = "Iteam One: {}, Iteam two : {}".format("dog", "cat")
+print(x)
+
+x = "Iteam One: {x}, Iteam two : {y}".format(x = "dog1", y = "cat1")
+print(x)
